@@ -24,7 +24,7 @@ export default class UserForm extends Component {
         });
     }
 
-    // Go Back to next step
+    // Go Back to the previous step
     prevStep = () => {
         const {step} = this.state;
         this.setState({
